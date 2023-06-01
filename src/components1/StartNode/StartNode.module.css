@@ -1,0 +1,21 @@
+.startNode {
+  border: 2px solid #1890ff;
+  border-radius: 12px;
+}
+
+.handle {
+  height:15px;
+  border-radius: 30px;
+  border:2px solid white;
+  width: 15px;
+  position: absolute;
+  top: 98%;
+  right:47%;
+  background-color: #1890ff;
+}
+
+/*
+.handle:hover {
+  background-color: #3377FF !important;
+}
+*/

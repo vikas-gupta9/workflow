@@ -1,0 +1,42 @@
+.emailNode {
+  border: 2px solid #00d05e;
+  border-radius: 12px;
+  
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  /* outline: 1px solid #00d05e; */
+  padding: 8px;
+ 
+}
+
+
+.handle {
+  height:15px;
+  border-radius: 30px;
+  border:2px solid white;
+  width: 15px;
+  background-color: #00d05e;
+}
+
+.handleLeft {
+  position: absolute;
+  top: 2%;
+  left: 45%;
+  border-radius: 12px;
+}
+
+.handleRight {
+  position: absolute;
+  top: 98%;
+  right: 47%;
+  border-radius: 12px;
+}
+
+/*
+.handle:hover {
+  background-color: #414042 !important;
+}
+*/

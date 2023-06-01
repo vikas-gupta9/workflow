@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "width": 209,
+      "height": 70,
+      "id": "node_0",
+      "type": "startNode",
+      "name": "Start",
+      "position": { "x": 250, "y": 5 },
+      "data": { "internal": { "name": "Start" } },
+      "selectable": true,
+      "draggable": true,
+      "positionAbsolute": { "x": 250, "y": 5 }
+    },
+    {
+      "width": 209,
+      "height": 70,
+      "id": "node_1",
+      "type": "sendEmail",
+      "name": "Send Email",
+      "position": { "x": 366, "y": -199.09375 },
+      "data": {
+        "internal": { "name": "Send Email" },
+        "action_type": "send_email"
+      },
+      "selected": false,
+      "positionAbsolute": { "x": 366, "y": -199.09375 },
+      "dragging": false
+    },
+    {
+      "width": 209,
+      "height": 70,
+      "id": "node_2",
+      "type": "updateField",
+      "name": "Update Field",
+      "position": { "x": 164, "y": -91.09375 },
+      "data": {
+        "internal": { "name": "Update Field" },
+        "action_type": "update_field"
+      },
+      "selected": false,
+      "positionAbsolute": { "x": 164, "y": -91.09375 },
+      "dragging": false
+    },
+    {
+      "width": 209,
+      "height": 70,
+      "id": "node_3",
+      "type": "action",
+      "name": "Action",
+      "position": { "x": 486, "y": -70.59375 },
+      "data": { "internal": { "name": "Action" }, "action_type": "action" },
+      "positionAbsolute": { "x": 486, "y": -70.59375 }
+    }
+  ],
+  "edges": [
+    {
+      "source": "node_1",
+      "sourceHandle": "node_1",
+      "target": "node_2",
+      "targetHandle": "node_2",
+      "id": "reactflow__edge-node_1node_1-node_2node_2"
+    },
+    {
+      "source": "node_1",
+      "sourceHandle": "node_1",
+      "target": "node_3",
+      "targetHandle": "node_3",
+      "id": "reactflow__edge-node_1node_1-node_3node_3"
+    }
+  ],
+  "viewport": { "x": -279, "y": 428.5, "zoom": 2 }
+}

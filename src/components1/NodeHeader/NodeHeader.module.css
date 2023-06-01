@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  padding: 8px;
+  min-height: 30px;
+}
+.labelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%;
+  height: 100%; */
+  /* border-radius: 12px 12px 0 0 ;
+  background-color: aqua; */
+  /* margin-right: 10px; */
+
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.draggerIcon {
+  width: 24px;
+  height: 24px;
+}
+
+
+.close:hover {
+  fill: rgba(0, 0, 0, .5);
+}
+
+.close:focus {
+  outline: 0;
+}
+
+

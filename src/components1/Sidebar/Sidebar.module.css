@@ -1,0 +1,86 @@
+.sidebar {
+  border-right: 1px solid #e6e2ff;
+  padding: 15px 10px;
+  font-size: 12px;
+  background: #f3f1ff;
+
+}
+.sidebarnodes{
+  margin-top: 150px;
+}
+.delayNode{
+  border: 1.5px solid #ff4d4f;
+}
+.emailNodes, .actionNodes, .updateNodes, .delayNodes {
+  margin-bottom: 10px;
+}
+
+.emailNode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 24px;
+  background: white;
+  border: 1.5px solid #00d05e;
+  font-weight: 600;
+}
+.updateNode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 24px;
+  background: white;
+  border: 1.5px solid #ff4d4f;
+  font-weight: 600;
+}
+.actionNode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 24px;
+  background: white;
+  border: 1.5px solid #1455fa;
+  font-weight: 600;
+}
+.delayNode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 24px;
+  background: white;
+  border: 1.5px solid #ff4d4f;
+  font-weight: 600;
+}
+
+.emailNode:nth-last-of-type(1),
+.actionNode:nth-last-of-type(1),
+.updateNode:nth-last-of-type(1)
+.delayNode:nth-last-of-type(1)
+ {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    width: 20%;
+    max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar {
+    overflow-y: auto;
+  }
+}

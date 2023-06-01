@@ -1,0 +1,83 @@
+.actionNode {
+  border: 2px solid #1455fa;
+  border-radius: 12px;
+
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid #00d05e;
+  padding: 8px;
+}
+.label {
+  color: gray;
+  margin-bottom: 4px;
+}
+
+.handle {
+  height:18px;
+  border-radius: 30px;
+  border:2px solid white;
+  width: 18px;
+  background-color: #1455fa;
+}
+
+.handleLeft {
+  position: absolute;
+  top: 2%;
+  left: 44%;
+  border-radius: 12px;
+  background-color: #1455fa;
+}
+
+.handleRight {
+  position: absolute;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 18px;
+  width: 18px;
+}
+.bottom {
+  position: absolute;
+  top: 98%;
+  left: 44%;
+  border-radius: 12px;
+  background-color: #1455fa;
+}
+
+.true {
+  position: absolute;
+  top: 50%;
+  right: 95%;
+  border-radius: 24px;
+  background-color: #52c41a;
+}
+
+.false {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  border-radius: 24px;
+  background-color: #ff4d4f;
+}
+
+.true:after {
+  content: "";
+  display: block;
+  height: 12px;
+  width: 12px;
+  background: #fff;
+  -webkit-mask: url(../../assets/Check.svg);
+  mask: url(../../assets/Check.svg);
+}
+
+.false:after {
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: #fff;
+  -webkit-mask: url(../../assets/Close.svg);
+  mask: url(../../assets/Close.svg);
+}

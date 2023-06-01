@@ -1,0 +1,44 @@
+.updateNode {
+  border: 2px solid #ff4d4f;
+  border-radius: 12px;
+}
+
+.handle {
+  height:15px;
+  border-radius: 30px;
+  border:2px solid white;
+  width: 15px;
+  background-color: #ff4d4f;
+}
+
+.handleLeft {
+  position: absolute;
+  top: 2%;
+  left: 46%;
+  border-radius: 12px;
+}
+
+.handleRight {
+  position: absolute;
+  top: 98%;
+  right: 46%;
+  border-radius: 12px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid #ff4d4f;
+  padding: 8px;
+}
+
+.label {
+  color: gray;
+  margin-bottom: 4px;
+}
+
+
+/*
+.handle:hover {
+  background-color: #FF4696 !important
+}
+*/
