@@ -4,6 +4,7 @@ import actionStyle from '../SendEmail/SendEmail.module.css'
 import logicStyle from '../Action/Action.module.css'
 import outputStyle from '../UpdateField/UpdateField.module.css'
 
+
 const onDragStart = (event, node,content) => {
   const stringNode = JSON.stringify(node)
   event.dataTransfer.setData('application/reactflow', stringNode)
@@ -14,8 +15,8 @@ const onDragStart = (event, node,content) => {
 const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
+    
     <div className={styles.sidebarnodes}>
-
     </div>
       <section className={styles.emailNodes}>
         <div
@@ -63,6 +64,29 @@ const Sidebar = () => {
           Delay
         </div>
       </section>
+
+      <div  className={styles.YesNo}>
+      <section className={styles.YesNodes}>
+        <div
+          className={`${styles.YesNode} ${actionStyle.YesNode} `}
+          onDragStart={(event) => onDragStart(event, { type: 'yes', name: 'Yes' })}
+          draggable
+        >
+       Yes
+        </div>
+      </section>
+      <section className={styles.NoNodes}>
+        <div
+          className={`${styles.NoNode} ${actionStyle.NoNode} `}
+          onDragStart={(event) => onDragStart(event, { type: 'no', name: 'No' })}
+          draggable
+        >
+         No
+        </div>
+      </section>
+      </div>
+     
+     
     </aside>
   )
 }

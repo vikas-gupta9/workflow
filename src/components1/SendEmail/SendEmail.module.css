@@ -1,7 +1,7 @@
 .emailNode {
   border: 2px solid #00d05e;
-  border-radius: 12px;
-  
+  border-radius: 8px;
+  max-width: 200px;
 }
 
 .body {
@@ -20,7 +20,7 @@
   width: 15px;
   background-color: #00d05e;
 }
-
+/* 
 .handleLeft {
   position: absolute;
   top: 2%;
@@ -33,10 +33,63 @@
   top: 98%;
   right: 47%;
   border-radius: 12px;
-}
+} */
 
 /*
 .handle:hover {
   background-color: #414042 !important;
 }
 */
+
+
+.header {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  padding: 8px;
+  min-height: 20px; */
+}
+.labelContainer {
+  background-color: #00d05e;
+  border-radius: 6px 6px 0 0 ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  border-bottom: 2px solid #00d05e;
+}
+.labelContainer h6{
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+
+
+/* 
+.textupdaternodeemail{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:center;
+text-align: center;
+} */
+.textupdaternodeemail{
+  margin: 8px;
+}
+.textupdaternodeemail>p{
+  color: #070707;
+  font-size: 12px;
+}
+
+.textupdaternodeemail>p>b{
+  color: #00b551;
+}
+
+
+ /* img{
+margin-left: 250px;
+margin-bottom: 20px;
+}  */

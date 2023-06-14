@@ -1,6 +1,7 @@
 .updateNode {
-  border: 2px solid #ff4d4f;
-  border-radius: 12px;
+  border: 2px solid #1455fa;
+  border-radius: 8px;
+  max-width: 200px;
 }
 
 .handle {
@@ -8,10 +9,10 @@
   border-radius: 30px;
   border:2px solid white;
   width: 15px;
-  background-color: #ff4d4f;
+  background-color: #1455fa;
 }
 
-.handleLeft {
+/* .handleLeft {
   position: absolute;
   top: 2%;
   left: 46%;
@@ -23,11 +24,11 @@
   top: 98%;
   right: 46%;
   border-radius: 12px;
-}
+} */
 .body {
   display: flex;
   flex-direction: column;
-  outline: 1px solid #ff4d4f;
+  outline: 1px solid #1455fa;
   padding: 8px;
 }
 
@@ -42,3 +43,62 @@
   background-color: #FF4696 !important
 }
 */
+
+
+.header {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  padding: 8px;
+  min-height: 30px; */
+}
+.labelContainer {
+  background-color: #1455fa;
+  border-radius: 6px 6px 0 0 ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  border-bottom: 2px solid #1455fa;
+}
+
+.labelContainer h6{
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+
+/* 
+.text-updater-node input{
+  display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:center;
+text-align: center;
+width: auto;
+  height: 25px;
+  border-radius: 8px;
+  border:2px solid white;
+ 
+} */
+/* .textupdaternodeupdatefield{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+   
+  } */
+  .textupdaternodeupdatefield{
+    margin: 8px;
+  }
+  .textupdaternodeupdatefield>p{
+    color: #070707;
+    font-size: 12px;
+  }
+  
+  .textupdaternodeupdatefield>p>b{
+    color: #1455fa;
+  }

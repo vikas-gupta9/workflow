@@ -1,6 +1,9 @@
 .startNode {
   border: 2px solid #1890ff;
-  border-radius: 12px;
+  border-radius: 8px;
+  max-width: 200px;
+  /* max-width: 210px; */
+  /* min-height:65px */
 }
 
 .handle {
@@ -9,8 +12,6 @@
   border:2px solid white;
   width: 15px;
   position: absolute;
-  top: 98%;
-  right:47%;
   background-color: #1890ff;
 }
 
@@ -19,3 +20,44 @@
   background-color: #3377FF !important;
 }
 */
+
+
+.header {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center; */
+  /* padding: 8px; */
+
+}
+.labelContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
+  border-radius: 6px 6px 0 0 ;
+  color: white;
+  background-color: #1890ff;
+  border: 2px solid #1890ff;
+}
+
+.draggerIcon {
+  width: 24px;
+  height: 24px;
+}
+
+/* .text-updater-node{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+} */
+
+/* .text-updater-node input{
+text-align: center;
+  height: 30px;
+  border-radius: 8px;
+  border:2px solid white;
+ 
+} */
+
+

@@ -1,6 +1,7 @@
 .delayNode {
   border: 2px solid #fa8600;
-  border-radius: 12px;
+  border-radius: 8px;
+  max-width: 200px;
 
 }
 
@@ -12,19 +13,6 @@
   background-color: #fa8600;
 }
 
-.handleLeft {
-  position: absolute;
-  top: 2%;
-  left: 46%;
-  border-radius: 12px;
-}
-
-.handleRight {
-  position: absolute;
-  top: 98%;
-  right: 46%;
-  border-radius: 12px;
-}
 .body {
   display: flex;
   flex-direction: column;
@@ -43,3 +31,44 @@
   background-color: #FF4696 !important
 }
 */
+
+.header {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  padding: 8px;
+  min-height: 30px; */
+}
+.labelContainer {
+  background-color: #fa8600;
+  border-radius: 6px 6px 0 0 ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  border-bottom: 1px solid #fa8600;
+}
+
+.labelContainer h6{
+  padding-left: 2px;
+  padding-top: 5px;
+}
+
+
+.textupdaternodedelay>p{
+  padding-left: 5px;
+  padding-top: 5px;
+  color: #070707;
+  font-size: 12px;
+}
+
+.textupdaternodedelay>p>b{
+  color: #fa8600;
+}
+
+
+.textupdaternodedelay{
+  margin: 8px;
+}
