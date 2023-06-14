@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-    <TableNavigation/>
-    {/* <TableButtons/>
-     {/* <DataTable/> */}
+    {/* <TableNavigation/>
+     <TableButtons/> 
+     <DataTable/> */}
     {/* <DnDFlow/> */}
     <Workflow1/>
     </>

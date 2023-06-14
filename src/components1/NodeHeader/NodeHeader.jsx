@@ -3,9 +3,8 @@ import DragIndicatorOutlinedIcon from '@mui/icons-material/DragIndicatorOutlined
 import styles from './NodeHeader.module.css'
 import { useCallback } from 'react';
 
-const NodeHeader = ({ label, type, id,data}) => {
-const [nodeValue , setNodeValue] = useState();
-
+const NodeHeader = ({ label, type, id }) => {
+const [nodeValue , setNodeValue] = useState({label});
   const onChange = useCallback((evt) => {
     setNodeValue(evt.target.value);
   }, []);
@@ -20,7 +19,7 @@ const [nodeValue , setNodeValue] = useState();
       </div>
     
       <div className="text-updater-node">
-        <input placeholder={label}  onChange={onChange} />
+        <input placeholder={label} value={nodeValue}  onChange={onChange} />
     </div>
     </div>
    

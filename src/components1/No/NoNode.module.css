@@ -1,0 +1,28 @@
+.NoNode {
+    border: 2px solid #ff4d4f;
+    border-radius: 6px;
+    max-width: 60px;
+  }
+  
+  .handle {
+   
+    background-color: #ff4d4f;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid #ff4d4f;
+    padding: 8px;
+  }
+
+  .labelContainer {
+    background-color: #ff4d4f;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 2px;
+  }
+  .labelContainer h6{
+    margin-bottom: 3px;
+  }

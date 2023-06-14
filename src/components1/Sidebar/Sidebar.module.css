@@ -6,13 +6,45 @@
 
 }
 .sidebarnodes{
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .delayNode{
   border: 1.5px solid #ff4d4f;
 }
-.emailNodes, .actionNodes, .updateNodes, .delayNodes {
+.emailNodes, .actionNodes, .updateNodes, .delayNodes,.YesNodes, .NoNodes {
   margin-bottom: 10px;
+}
+.YesNodes{
+  width: 70px;
+}
+.NoNodes{
+  width: 70px;
+}
+.YesNode{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 24px;
+  background: #00d05e;
+  color:white;
+  border: 1.5px solid #00d05e;
+  font-weight: 600;
+}
+.NoNode{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 24px;
+  background: #ff4d4f;
+  color:white;
+  border: 1.5px solid #ff4d4f;
+  font-weight: 600;
 }
 
 .emailNode {
@@ -36,7 +68,7 @@
   height: 30px;
   border-radius: 24px;
   background: white;
-  border: 1.5px solid #ff4d4f;
+  border: 1.5px solid #1455fa;
   font-weight: 600;
 }
 .actionNode {
@@ -66,10 +98,17 @@
 
 .emailNode:nth-last-of-type(1),
 .actionNode:nth-last-of-type(1),
-.updateNode:nth-last-of-type(1)
-.delayNode:nth-last-of-type(1)
+.updateNode:nth-last-of-type(1),
+.delayNode:nth-last-of-type(1),
+.YesNode:nth-last-of-type(1)
+.NoNode:nth-last-of-type(1)
  {
   margin-bottom: 20px;
+}
+.YesNo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 @media screen and (min-width: 768px) {
