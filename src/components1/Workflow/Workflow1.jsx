@@ -32,6 +32,7 @@ import ReactFlow, {
   MarkerType,
 } from "reactflow";
 import "reactflow/dist/style.css";
+import 'reactflow/dist/style.css';
 import { Dialog, DialogTitle } from "@mui/material";
 
 const initialNodes = [
